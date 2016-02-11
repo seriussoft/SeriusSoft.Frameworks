@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM", "MVVM\MVVM.csproj", "{1A4550A1-BD39-4E93-81DF-21EC3743F18E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{867FFE2E-6BFC-4EBF-9F54-6B528E85D8C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTesting", "UnitTesting", "{36D1174B-9DD8-4BAA-B1DD-0FE281ACD782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM_UnitTests", "Tests\UnitTests\MVVM_UnitTests\MVVM_UnitTests.csproj", "{97D5B649-7E19-4606-BFED-DFBDAA3B8D6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A4550A1-BD39-4E93-81DF-21EC3743F18E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A4550A1-BD39-4E93-81DF-21EC3743F18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A4550A1-BD39-4E93-81DF-21EC3743F18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A4550A1-BD39-4E93-81DF-21EC3743F18E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D5B649-7E19-4606-BFED-DFBDAA3B8D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D5B649-7E19-4606-BFED-DFBDAA3B8D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D5B649-7E19-4606-BFED-DFBDAA3B8D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D5B649-7E19-4606-BFED-DFBDAA3B8D6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{36D1174B-9DD8-4BAA-B1DD-0FE281ACD782} = {867FFE2E-6BFC-4EBF-9F54-6B528E85D8C4}
+		{97D5B649-7E19-4606-BFED-DFBDAA3B8D6B} = {36D1174B-9DD8-4BAA-B1DD-0FE281ACD782}
+	EndGlobalSection
+EndGlobal
